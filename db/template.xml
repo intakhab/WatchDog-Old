@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DogInfoConfiguration>
+    <archiveFolderPath>c:/dataload/TMAPIBatch/Archive1</archiveFolderPath>
+    <batchFilePath>C:/dataload/TMAPIBatch/BatchFile/process.bat</batchFilePath>
+    <carrierCodeTag>CarrierCode</carrierCodeTag>
+    <dogId>1</dogId>
+    <dogType>FD</dogType>
+    <enableArchiveOthersFile>true</enableArchiveOthersFile>
+    <enableMail>true</enableMail>
+    <enableResponseCodeLog>true</enableResponseCodeLog>
+    <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
+    <fileExtension>xml</fileExtension>
+    <fileSupports>cam,dc,so,edi,ssc</fileSupports>
+    <fileTypeSeparator>@</fileTypeSeparator>
+    <flag>true</flag>
+    <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <optArchiveFolderPath>c:/dataload/TMAPIBatch/Archive1</optArchiveFolderPath>
+    <optFailureFolderPath>c:/dataload/TMAPIBatch/Failure1</optFailureFolderPath>
+    <optFileSupports>processScheduleRunRequest,processGLTransactionRetrieve</optFileSupports>
+    <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
+    <optOutputFolderPath>c:/dataload/TMAPIBatch/Output1</optOutputFolderPath>
+    <optSupportsAPI>processScheduleRunRequest={ScheduleRunTypeEnumVal=SRT_APVCHR},processScheduleRunRequest={ScheduleRunTypeEnumVal=SRT_APACCR}</optSupportsAPI>
+    <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
+    <responeCodeTag>CompletedSuccessfully</responeCodeTag>
+    <responseFilePrefix>Out_</responseFilePrefix>
+    <supportsAPI>cam=changeEntity</supportsAPI>
+    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+    <stopFileRun>false</stopFileRun>
+    <stopBatchRun>false</stopBatchRun>
+</DogInfoConfiguration>

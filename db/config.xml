@@ -16,15 +16,15 @@
     <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
     <optArchiveFolderPath>c:/dataload/TMAPIBatch/Archive1</optArchiveFolderPath>
     <optFailureFolderPath>c:/dataload/TMAPIBatch/Failure1</optFailureFolderPath>
-    <optFileSupports>processScheduleRunRequest,processGLTransactionRetrieve</optFileSupports>
+    <optFileSupports>csi</optFileSupports>
     <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
     <optOutputFolderPath>c:/dataload/TMAPIBatch/Output1</optOutputFolderPath>
-    <optSupportsAPI>processScheduleRunRequest={ScheduleRunTypeEnumVal=SRT_APVCHR},processScheduleRunRequest={ScheduleRunTypeEnumVal=SRT_APACCR}</optSupportsAPI>
+    <optSupportsAPI>processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APACCR|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},processGLTransactionRetrieve@{GLTransactionTypeEnumVal=GLTT_POSTED|GLClassificationEnumVal=GLC_AP_EXPS_RVNU_SHPM|GLClassificationEnumVal=GLC_AP_LBTY_RVNU_SHPM}</optSupportsAPI>
     <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
     <responeCodeTag>CompletedSuccessfully</responeCodeTag>
     <responseFilePrefix>Out_</responseFilePrefix>
     <stopBatchRun>false</stopBatchRun>
     <stopFileRun>true</stopFileRun>
-    <supportsAPI>cam=changeEntity,so=processShipmentOrderUpdate,dc=changeEntity</supportsAPI>
+    <supportsAPI>cam=changeEntity</supportsAPI>
     <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
 </DogInfoConfiguration>

@@ -1,1 +1,0 @@
-start /max dog.bat

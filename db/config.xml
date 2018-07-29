@@ -6,25 +6,26 @@
     <dogId>1</dogId>
     <dogType>FD</dogType>
     <enableArchiveOthersFile>false</enableArchiveOthersFile>
-    <enableMail>true</enableMail>
+    <enableMail>false</enableMail>
     <enableResponseCodeLog>false</enableResponseCodeLog>
     <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
     <fileExtension>xml</fileExtension>
-    <fileSupports>cam,dc,so,edi,ssc</fileSupports>
+    <fileSupports>cam,dc,so,edi,ssc,shipload</fileSupports>
     <fileTypeSeparator>@</fileTypeSeparator>
     <flag>true</flag>
     <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <limitFilesFolder>10</limitFilesFolder>
     <optArchiveFolderPath>c:/dataload/TMAPIBatch/Archive1</optArchiveFolderPath>
     <optFailureFolderPath>c:/dataload/TMAPIBatch/Failure1</optFailureFolderPath>
     <optFileSupports>csi</optFileSupports>
     <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
     <optOutputFolderPath>c:/dataload/TMAPIBatch/Output1</optOutputFolderPath>
-    <optSupportsAPI>processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APACCR|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?},processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},processGLTransactionRetrieve@{GLTransactionTypeEnumVal=GLTT_POSTED|GLClassificationEnumVal=GLC_AP_EXPS_RVNU_SHPM|GLClassificationEnumVal=GLC_AP_LBTY_RVNU_SHPM}</optSupportsAPI>
+    <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?}</optSupportsAPI>
     <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
     <responeCodeTag>CompletedSuccessfully</responeCodeTag>
     <responseFilePrefix>Out_</responseFilePrefix>
     <stopBatchRun>false</stopBatchRun>
     <stopFileRun>true</stopFileRun>
-    <supportsAPI>cam=changeEntity</supportsAPI>
-    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+    <supportsAPI>cam=changeEntity,dc=changeEntity</supportsAPI>
+    <toWhomEmail></toWhomEmail>
 </DogInfoConfiguration>

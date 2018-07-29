@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reports>
+  <report id="1532877929013">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>29/07/2018 - 08:55:29</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532877931463">
+    <filename>processStopConfirm@shipload83.xml</filename>
+    <filedat>29/07/2018 - 08:55:31</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888034883">
+    <filename>changeEntity@CaM_13.xml</filename>
+    <filedat>29/07/2018 - 11:43:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888037671">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>29/07/2018 - 11:43:57</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888094750">
+    <filename>changeEntity@CaM_13.xml</filename>
+    <filedat>29/07/2018 - 11:44:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888097691">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>29/07/2018 - 11:44:57</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888154880">
+    <filename>changeEntity@CaM_13.xml</filename>
+    <filedat>29/07/2018 - 11:45:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532888158097">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>29/07/2018 - 11:45:58</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532889114483">
+    <filename>changeEntity@CaM_13.xml</filename>
+    <filedat>30/07/2018 - 12:01:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889117054">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:01:57</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532889119559">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>30/07/2018 - 12:01:59</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889122069">
+    <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+    <filedat>30/07/2018 - 12:02:02</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889124551">
+    <filename>processStopConfirm@shipload83.xml</filename>
+    <filedat>30/07/2018 - 12:02:04</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889174479">
+    <filename>addEntity@CaM_1.xml</filename>
+    <filedat>30/07/2018 - 12:02:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889176912">
+    <filename>addEntity@dc.xml</filename>
+    <filedat>30/07/2018 - 12:02:56</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889179398">
+    <filename>changeEntity@CaM_13.xml</filename>
+    <filedat>30/07/2018 - 12:02:59</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889181930">
+    <filename>changeEntity@DC_1.xml</filename>
+    <filedat>30/07/2018 - 12:03:01</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889184429">
+    <filename>e24253.pdf@dc_1531488047229.xml</filename>
+    <filedat>30/07/2018 - 12:03:04</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889186908">
+    <filename>e24253.pdf@edi_1531474434307.xml</filename>
+    <filedat>30/07/2018 - 12:03:06</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889189420">
+    <filename>e24253.pdf@edi_1531478985807.xml</filename>
+    <filedat>30/07/2018 - 12:03:09</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889191923">
+    <filename>processLoadUpdateProgress@EDI.xml</filename>
+    <filedat>30/07/2018 - 12:03:11</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889194351">
+    <filename>ProcessMaintainEntityReferenceNumber@SSC_1283.xml</filename>
+    <filedat>30/07/2018 - 12:03:14</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889196744">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>30/07/2018 - 12:03:16</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889199368">
+    <filename>processShipmentOrderMaintain@SO_69.xml</filename>
+    <filedat>30/07/2018 - 12:03:19</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889594433">
+    <filename>=changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:09:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889654343">
+    <filename>addEntity@CaM_13_201806290003.xml</filename>
+    <filedat>30/07/2018 - 12:10:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889656840">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>30/07/2018 - 12:10:56</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889834469">
+    <filename>addEntity@edi_1531413757520.xml</filename>
+    <filedat>30/07/2018 - 12:13:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889836845">
+    <filename>addEntity@so_2018-07-12.xml</filename>
+    <filedat>30/07/2018 - 12:13:56</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889839411">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:13:59</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532889894415">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>30/07/2018 - 12:14:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532889896782">
+    <filename>processStopConfirm@shipload83.xml</filename>
+    <filedat>30/07/2018 - 12:14:56</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890014351">
+    <filename>e24253.pdf@dc_1531488047229.xml</filename>
+    <filedat>30/07/2018 - 12:16:54</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890342590">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:22:22</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532890402580">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:23:22</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532890462570">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:24:22</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532890522611">
+    <filename>changeEntity@CaM_6.xml</filename>
+    <filedat>30/07/2018 - 12:25:22</filedat>
+    <description/>
+    <status>PASS</status>
+  </report>
+<report id="1532890582620">
+    <filename>e24253.pdf@dc_1531488047229.xml</filename>
+    <filedat>30/07/2018 - 12:26:22</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890585018">
+    <filename>e24253.pdf@edi_1531474434307.xml</filename>
+    <filedat>30/07/2018 - 12:26:25</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890587381">
+    <filename>e24253.pdf@edi_1531478985807.xml</filename>
+    <filedat>30/07/2018 - 12:26:27</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890589780">
+    <filename>processLoadUpdateProgress@EDI.xml</filename>
+    <filedat>30/07/2018 - 12:26:29</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890592281">
+    <filename>ProcessMaintainEntityReferenceNumber@SSC_1283.xml</filename>
+    <filedat>30/07/2018 - 12:26:32</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890594809">
+    <filename>processShipmentOrderCreate@SO_1176.xml</filename>
+    <filedat>30/07/2018 - 12:26:34</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890597216">
+    <filename>processStopConfirm@shipload83.xml</filename>
+    <filedat>30/07/2018 - 12:26:37</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532890642635">
+    <filename>processSendToOptimizerCISDoc.xml@ssc_1532890583132.xml</filename>
+    <filedat>30/07/2018 - 12:27:22</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532891569006">
+    <filename>addEntity@cam_1532891525405.xml</filename>
+    <filedat>30/07/2018 - 12:42:49</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+<report id="1532891571485">
+    <filename>addEntity@dc_1532891538002.xml</filename>
+    <filedat>30/07/2018 - 12:42:51</filedat>
+    <description/>
+    <status>FAIL</status>
+  </report>
+</reports>

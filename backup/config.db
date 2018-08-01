@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DogInfoConfiguration>
+    <archiveFolderPath>c:/dataload/TMAPIBatch/Archive1</archiveFolderPath>
+    <batchFilePath>C:/dataload/TMAPIBatch/BatchFile/process.bat</batchFilePath>
+    <carrierCodeTag>CarrierCode</carrierCodeTag>
+    <dogId>1</dogId>
+    <dogType>FD</dogType>
+    <enableArchiveOthersFile>false</enableArchiveOthersFile>
+    <enableMail>true</enableMail>
+    <enableResponseCodeLog>false</enableResponseCodeLog>
+    <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
+    <fileExtension>xml</fileExtension>
+    <fileSupports>cam,dc,so,edi,ssc,shipload</fileSupports>
+    <fileTypeSeparator>@</fileTypeSeparator>
+    <flag>true</flag>
+    <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <limitFilesFolder>100</limitFilesFolder>
+    <optArchiveFolderPath>c:/dataload/TMAPIBatch/Archive1</optArchiveFolderPath>
+    <optFailureFolderPath>c:/dataload/TMAPIBatch/Failure1</optFailureFolderPath>
+    <optFileSupports>csi</optFileSupports>
+    <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
+    <optOutputFolderPath>c:/dataload/TMAPIBatch/Output1</optOutputFolderPath>
+    <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?}</optSupportsAPI>
+    <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
+    <responeCodeTag>CompletedSuccessfully</responeCodeTag>
+    <responseFilePrefix>Out_</responseFilePrefix>
+    <stopBatchRun>false</stopBatchRun>
+    <stopFileRun>true</stopFileRun>
+    <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
+    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+</DogInfoConfiguration>

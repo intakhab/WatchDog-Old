@@ -1,0 +1,318 @@
+[ INFO  ] - 2018-08-06 16:28:18 - [  c.a.WatchDogWebApp:50  ]- Starting WatchDogWebApp v0.0.3-SNAPSHOT on LP-5CD809BB4K with PID 525400 (C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web\WatchDog.war started by intakhabalam.s in C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web)
+[ DEBUG ] - 2018-08-06 16:28:18 - [  c.a.WatchDogWebApp:53  ]- Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+[ INFO  ] - 2018-08-06 16:28:18 - [  c.a.WatchDogWebApp:659  ]- No active profile set, falling back to default profiles: default
+[ INFO  ] - 2018-08-06 16:28:18 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590  ]- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@256216b3: startup date [Mon Aug 06 16:28:18 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-08-06 16:28:20 - [  o.s.b.w.e.t.TomcatWebServer:91  ]- Tomcat initialized with port(s): 5400 (http)
+[ INFO  ] - 2018-08-06 16:28:20 - [  o.a.c.c.StandardService:180  ]- Starting service [Tomcat]
+[ INFO  ] - 2018-08-06 16:28:20 - [  o.a.c.c.StandardEngine:180  ]- Starting Servlet Engine: Apache Tomcat/8.5.31
+[ INFO  ] - 2018-08-06 16:28:20 - [  o.a.c.c.AprLifecycleListener:180  ]- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Workspace\installer\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Workspace\installer\node-v8.11.1;C:\Workspace\installer\Git\cmd\git.exe;C:\Workspace\installer\Git\cmd;C:\Workspace\installer\jdk1.8.0_101\bin;C:\Users\intakhabalam.s\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;.]
+[ INFO  ] - 2018-08-06 16:28:22 - [  o.a.j.s.TldScanner:180  ]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[ INFO  ] - 2018-08-06 16:28:23 - [  o.a.c.c.C.[.[.[/]:180  ]- Initializing Spring embedded WebApplicationContext
+[ INFO  ] - 2018-08-06 16:28:23 - [  o.s.w.c.ContextLoader:285  ]- Root WebApplicationContext: initialization completed in 5379 ms
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.ServletRegistrationBean:186  ]- Servlet dispatcherServlet mapped to [/]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpTraceFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:24 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-X:80  ]- { class java.lang.Class } data unmarshal sucessfully...
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-L:30  ]- Configuration data loading from DB
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.i.StdSchedulerFactory:1208  ]- Using default implementation for ThreadExecutor
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.c.SchedulerSignalerImpl:61  ]- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.c.QuartzScheduler:229  ]- Quartz Scheduler v.2.3.0 created.
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.s.RAMJobStore:155  ]- RAMJobStore initialized.
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.c.QuartzScheduler:294  ]- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.i.StdSchedulerFactory:1362  ]- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.i.StdSchedulerFactory:1366  ]- Quartz scheduler version: 2.3.0
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.q.c.QuartzScheduler:2287  ]- JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@55740540
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:80  ]- 
+
+ __        __          _            _         ____                      ____    _                    _     _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _    / ___|  | |_    __ _   _ __  | |_  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   \___ \  | __|  / _` | | '__| | __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |    ___) | | |_  | (_| | | |    | |_  | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |   |____/   \__|  \__,_| |_|     \__| |_| |_| |_|  \__, |
+                                                              |___/                                                    |___/ 
+
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-S:334  ]- Scanning all directory...
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:85  ]- ===================== Read the Configuaration Information ===========================
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:86  ]- Polling Time [ 60000 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:87  ]- Intial Polling Time [ 5000 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:88  ]- Batch File Path [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:89  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:90  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:91  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:92  ]- Filure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:93  ]- File Extension [ xml ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:94  ]- File Type Separator [ @ ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:95  ]- Response XML file start with [ Out_ ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:96  ]- File Supports with [ cam,dc,so,edi,ssc,shipload ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:98  ]- OPT Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:99  ]- OPT Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:100  ]- OPT Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:101  ]- OPT Failure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:102  ]- OPT File Supports with [ csi ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:104  ]- File Run [ true ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:105  ]- Batch Run [ false ]
+[ INFO  ] - 2018-08-06 16:28:25 - [  Dog-0:107  ]- ======================================================================================
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574  ]- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@256216b3: startup date [Mon Aug 06 16:28:18 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/errorpage]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogErrorController.renderErrorPage(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/shutdownContext],methods=[GET]}" onto public void com.app.filedog.controller.ShutdownController.shutdownContext()
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/]}" onto public java.lang.String com.app.filedog.controller.DogController.landingPage(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/restoreconfig]}" onto public java.lang.String com.app.filedog.controller.DogController.restoreConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/configfile]}" onto public java.lang.String com.app.filedog.controller.DogController.fileConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/saveconfiginfo]}" onto public java.lang.String com.app.filedog.controller.DogController.saveConfigInfo(com.app.filedog.dto.FileDogInfoDto,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/reportslist/{reportsdb}],methods=[POST]}" onto public java.util.List<com.app.filedog.domain.Report> com.app.filedog.controller.DogController.getReportsList(java.lang.String)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/movetoinputdir/{fileName}/{type}]}" onto public java.lang.String com.app.filedog.controller.DogController.moveToInputDir(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/responseout]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogController.responseOut()
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/downloadfile/{fileName}/{fileType}]}" onto public java.lang.String com.app.filedog.controller.DogController.downloadFile(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/inputdir]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogController.inputDir()
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/fileupload]}" onto public java.lang.String com.app.filedog.controller.DogController.fileUpload(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/archiveout]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogController.archiveOut()
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/reportspage]}" onto public java.lang.String com.app.filedog.controller.DogController.reportsPage(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/failuredir]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogController.failureDir(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/uploadfile],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.app.filedog.controller.DogController.uploadFile(org.springframework.web.multipart.MultipartFile)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/logspage]}" onto public java.lang.String com.app.filedog.controller.DogController.logsPage(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/deletefilefrominput/{fileName}]}" onto public java.lang.String com.app.filedog.controller.DogController.deleteFileFromInputDir(java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:547  ]- Mapped "{[/renameinvalidfile/{fileName}/{fileType}]}" onto public java.lang.String com.app.filedog.controller.DogController.renameInvalidFile(java.lang.String,java.lang.String,org.springframework.ui.Model)
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-08-06 16:28:25 - [  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:288  ]- Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.EndpointLinksResolver:59  ]- Exposing 16 endpoint(s) beneath base path '/actuator'
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/shutdown],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:547  ]- Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.j.e.a.AnnotationMBeanExporter:433  ]- Registering beans for JMX exposure on startup
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.c.s.DefaultLifecycleProcessor:351  ]- Starting beans in phase 2147483647
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.s.q.SchedulerFactoryBean:700  ]- Starting Quartz Scheduler now
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.q.c.QuartzScheduler:547  ]- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.s.a.ScheduledAnnotationBeanPostProcessor:275  ]- No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[ INFO  ] - 2018-08-06 16:28:26 - [  o.s.b.w.e.t.TomcatWebServer:206  ]- Tomcat started on port(s): 5400 (http) with context path ''
+[ INFO  ] - 2018-08-06 16:28:26 - [  c.a.WatchDogWebApp:59  ]- Started WatchDogWebApp in 11.215 seconds (JVM running for 12.259)
+[ INFO  ] - 2018-08-06 16:28:27 - [  o.a.c.c.C.[.[.[/]:180  ]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO  ] - 2018-08-06 16:28:27 - [  o.s.w.s.DispatcherServlet:494  ]- FrameworkServlet 'dispatcherServlet': initialization started
+[ INFO  ] - 2018-08-06 16:28:28 - [  o.s.w.s.DispatcherServlet:509  ]- FrameworkServlet 'dispatcherServlet': initialization completed in 1014 ms
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:124  ]- File Dog is stop. for start reconfigure setting
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:591  ]- =======================================================================
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:592  ]- NonEdiCaM Starting Time [ 16:28:31.557 ]
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:597  ]- NonEdiCaM Scanning Input directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:619  ]- NonEdiCaM Input directory size [ 8 ] 
+[ ERROR ] - 2018-08-06 16:28:31 - [  Dog-0:660  ]- NonEdiCaM Run into an error {File Exception}
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.app.filedog.component.DogComponent.getAPINonEdiCaMDto(DogComponent.java:742)
+	at com.app.filedog.component.DogComponent.invokeNonEdiRun(DogComponent.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO  ] - 2018-08-06 16:28:31 - [  Dog-0:664  ]- NonEdiCaM Finishing Time [ 16:28:31.573 ] => Total time taken to be completed  [ 0.018s ]
+[ INFO  ] - 2018-08-06 16:28:57 - [  Dog-X:80  ]- { class java.lang.Class } data unmarshal sucessfully...
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:124  ]- File Dog is stop. for start reconfigure setting
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:591  ]- =======================================================================
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:592  ]- NonEdiCaM Starting Time [ 16:29:31.562 ]
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:597  ]- NonEdiCaM Scanning Input directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:619  ]- NonEdiCaM Input directory size [ 8 ] 
+[ ERROR ] - 2018-08-06 16:29:31 - [  Dog-0:660  ]- NonEdiCaM Run into an error {File Exception}
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.app.filedog.component.DogComponent.getAPINonEdiCaMDto(DogComponent.java:742)
+	at com.app.filedog.component.DogComponent.invokeNonEdiRun(DogComponent.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO  ] - 2018-08-06 16:29:31 - [  Dog-0:664  ]- NonEdiCaM Finishing Time [ 16:29:31.562 ] => Total time taken to be completed  [ 0.0s ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-S:551  ]- DB backup done sucessfully...
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-X:103  ]- { class com.app.filedog.domain.DogInfoConfiguration } data marshall sucessfully...
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-X:80  ]- { class java.lang.Class } data unmarshal sucessfully...
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:48  ]- Refreshing data, change DB Mode
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:94  ]- Validated directories pass {} 
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:55  ]- ============ Read the Configuaration Information ======================
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:57  ]- Batch File Path [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:58  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:59  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:60  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:61  ]- Failure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:62  ]- File Extension [ xml ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:63  ]- File Type Separator [ @ ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:64  ]- Response XML file start with [ Out_ ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:65  ]- File Supports with [ cam,dc,so,edi,ssc,shipload ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:67  ]- OPT Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:68  ]- OPT Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:69  ]- OPT Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:70  ]- OPT Failure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:71  ]- OPT File Supports with [ csi ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:73  ]- File Run [ true ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:74  ]- Batch Run [ false ]
+[ INFO  ] - 2018-08-06 16:29:37 - [  Dog-L:76  ]- =======================================================================
+[ INFO  ] - 2018-08-06 16:29:39 - [  Dog-X:80  ]- { class java.lang.Class } data unmarshal sucessfully...
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-0:124  ]- File Dog is stop. for start reconfigure setting
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-0:591  ]- =======================================================================
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-0:592  ]- NonEdiCaM Starting Time [ 16:30:31.555 ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-0:597  ]- NonEdiCaM Scanning Input directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-0:619  ]- NonEdiCaM Input directory size [ 4 ] 
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:387  ]- [ :: nonedi ::] type file found.
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:69  ]- Read: APIs  { [findEntity, processStopConfirm]} Calling  [ findEntity]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:859  ]- Invoking Command Line Batch  [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:867  ]- Batch Invoking with Following args  
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:869  ]- API : findEntity
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:870  ]- Input Folder : c:/dataload/TMAPIBatch/Input1\findEntity_processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:871  ]- Output Folder : c:/dataload/TMAPIBatch/Output1\Out_findEntity_processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:325  ]- NO MATCH ===> Pattern { (.*)(Exception+)(.*) }
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:325  ]- NO MATCH ===> Pattern { Exception }
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:926  ]- Process Builder result code : [ true ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:898  ]- Read all input data as response.
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-S:933  ]- Process Done!!! 
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:73  ]- NonEdiCaM Batch Run Successfully...
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:300  ]- NonEdiCaM Scanning Response XML in directory  [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:314  ]- Fin { :: Found Response XML :: } ===>  for file [ Out_findEntity_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-5:315  ]- Response XML file location [ c:/dataload/TMAPIBatch/Output1\Out_findEntity_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:31 - [  Dog-X:129  ]- Parsing in XML found element name: [ CompletedSuccessfully ] ==> element value: [ true ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-X:290  ]- 
+<CISDocument>
+	<ApiHeader>
+		<OperationName>findEntitiesResponse</OperationName>
+	</ApiHeader>
+	<ResponseHeader>
+		<CompletedSuccessfully>true</CompletedSuccessfully>
+	</ResponseHeader>
+	<Page>
+		<StartAtRow>0</StartAtRow>
+		<MaxRows>1000</MaxRows>
+		<TotalRowCount>2</TotalRowCount>
+	</Page>
+	<Entity>
+		<Load>
+			<SystemLoadID>3362</SystemLoadID>
+		</Load>
+	</Entity>
+	<Entity>
+		<Load>
+			<SystemLoadID>3370</SystemLoadID>
+		</Load>
+	</Entity>
+	
+</CISDocument>
+
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:80  ]- Case 1 Invoking for READ
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:84  ]- Total Loads Founds [ 2 ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:89  ]- Loaded all xml valus in case 1
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:131  ]- PUT: APIs  { [findEntity, processStopConfirm]} Calling  [ processStopConfirm]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:135  ]- File for XML Tag modification : processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:142  ]- Case 1 Invoking for PUT
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-X:186  ]- Parsing XML for modification {}  found element name: [ SystemLoadID ] ==> element value: [ 3362 ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:859  ]- Invoking Command Line Batch  [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:867  ]- Batch Invoking with Following args  
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:869  ]- API : processStopConfirm
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:870  ]- Input Folder : c:/dataload/TMAPIBatch/Input1\processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:871  ]- Output Folder : c:/dataload/TMAPIBatch/Output1\Out_processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:325  ]- NO MATCH ===> Pattern { (.*)(Exception+)(.*) }
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:325  ]- NO MATCH ===> Pattern { Exception }
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:898  ]- Read all input data as response.
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:926  ]- Process Builder result code : [ true ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-S:933  ]- Process Done!!! 
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:300  ]- NonEdiCaM Scanning Response XML in directory  [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:314  ]- Fin { :: Found Response XML :: } ===>  for file [ Out_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-5:315  ]- Response XML file location [ c:/dataload/TMAPIBatch/Output1\Out_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-X:129  ]- Parsing in XML found element name: [ CompletedSuccessfully ] ==> element value: [ true ]
+[ INFO  ] - 2018-08-06 16:30:32 - [  Dog-X:290  ]- 
+<CISDocument>
+	<ResponseHeader>
+		<CompletedSuccessfully>true</CompletedSuccessfully>
+		
+	</ResponseHeader>
+</CISDocument>
+
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-X:186  ]- Parsing XML for modification {}  found element name: [ SystemLoadID ] ==> element value: [ 3370 ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:859  ]- Invoking Command Line Batch  [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:867  ]- Batch Invoking with Following args  
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:869  ]- API : processStopConfirm
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:870  ]- Input Folder : c:/dataload/TMAPIBatch/Input1\processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:871  ]- Output Folder : c:/dataload/TMAPIBatch/Output1\Out_processStopConfirm@nonedi.xml
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:325  ]- NO MATCH ===> Pattern { (.*)(Exception+)(.*) }
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:325  ]- NO MATCH ===> Pattern { Exception }
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:898  ]- Read all input data as response.
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:926  ]- Process Builder result code : [ true ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-S:933  ]- Process Done!!! 
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-5:300  ]- NonEdiCaM Scanning Response XML in directory  [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-5:314  ]- Fin { :: Found Response XML :: } ===>  for file [ Out_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-5:315  ]- Response XML file location [ c:/dataload/TMAPIBatch/Output1\Out_processStopConfirm@nonedi.xml ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-X:129  ]- Parsing in XML found element name: [ CompletedSuccessfully ] ==> element value: [ true ]
+[ INFO  ] - 2018-08-06 16:30:33 - [  Dog-X:290  ]- 
+<CISDocument>
+	<ResponseHeader>
+		<CompletedSuccessfully>true</CompletedSuccessfully>
+		
+	</ResponseHeader>
+</CISDocument>
+
+[ INFO  ] - 2018-08-06 16:30:36 - [  Dog-S:437  ]- Sending email {}...
+[ ERROR ] - 2018-08-06 16:30:57 - [  Dog-S:462  ]- Problem in sending email {FD} Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+[ INFO  ] - 2018-08-06 16:30:57 - [  Dog-0:664  ]- NonEdiCaM Finishing Time [ 16:30:57.984 ] => Total time taken to be completed  [ 26.429s ]
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:993  ]- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@256216b3: startup date [Mon Aug 06 16:28:18 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.s.c.s.DefaultLifecycleProcessor:366  ]- Stopping beans in phase 2147483647
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.s.j.e.a.AnnotationMBeanExporter:451  ]- Unregistering JMX-exposed beans on shutdown
+[ INFO  ] - 2018-08-06 16:30:58 - [  Dog-0:758  ]- Before closing called System GC.
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.q.c.QuartzScheduler:666  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.q.c.QuartzScheduler:740  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[ INFO  ] - 2018-08-06 16:30:58 - [  Dog-0:767  ]- Happy to safe closing with ( CTR + C ).
+[ INFO  ] - 2018-08-06 16:30:58 - [  Dog-0:768  ]- 
+
+ __        __          _            _         ____                       ____   _                 _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _     / ___| | |   ___    ___  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   | |     | |  / _ \  / __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |   | |___  | | | (_) | \__ \ | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |    \____| |_|  \___/  |___/ |_| |_| |_|  \__, |
+                                                              |___/                                           |___/ 
+
+[ INFO  ] - 2018-08-06 16:30:58 - [  o.s.s.q.SchedulerFactoryBean:824  ]- Shutting down Quartz Scheduler

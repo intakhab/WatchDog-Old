@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reports>
+   <report id="1532971222287">
+      <filename>processShipmentOrderMaintain@SO_69.xml</filename>
+      <filedat>30/07/2018 - 10:50:22</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1532971282298">
+      <filename>processStopConfirm@shipload83.xml</filename>
+      <filedat>30/07/2018 - 10:51:22</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+</reports>

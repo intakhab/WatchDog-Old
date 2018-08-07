@@ -1,0 +1,162 @@
+h1 {
+	color: #0000FF;
+}
+
+h2 {
+	color: #FF0000;
+}
+
+h3 {
+	color: #FF0000;
+}
+
+h4 {
+	color: #0000FF;
+}
+
+.btn_link {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #6b292900;
+	border-radius: 4px;
+	height: 20px;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 30px;
+	border: 1px solid #888;
+	width: 23%;
+}
+
+/* The Close Button */
+.close {
+	color: #400040;
+	padding-top: 0px;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ng-valid[required], .ng-valid.required {
+	border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form) {
+	border-left: 5px solid #a94442; /* red */
+}
+
+.entry
+:not
+ 
+(
+:first-of-type
+ 
+)
+{
+margin-top: 10px;
+
+
+}
+.glyphicon {
+	font-size: 12px;
+}
+
+input.ng-invalid {
+	border-left: 5px solid #a94442; /* red */
+}
+
+input.ng-valid {
+	border-left: 5px solid #42A948; /* green */
+}
+
+.ptop {
+	padding-top: 20px;
+}
+
+.bs-example {
+	position: relative;
+	margin: 10px !important;
+}
+
+.typeahead, .tt-query, .tt-hint {
+	padding: 8px 12px;
+	width: 396px;
+}
+
+.typeahead {
+	background-color: #FFFFFF;
+}
+
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.tt-hint {
+	color: #999999;
+}
+
+.tt-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 396px;
+}
+
+.tt-suggestion {
+	font-size: 22px; /* Set suggestion dropdown font size */
+	padding: 3px 20px;
+}
+
+.tt-suggestion:hover {
+	cursor: pointer;
+	background-color: #0097CF;
+	color: #FFFFFF;
+}
+
+.tt-suggestion p {
+	margin: 0;
+}

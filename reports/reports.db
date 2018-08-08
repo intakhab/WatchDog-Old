@@ -24,4 +24,28 @@
       <description>Not found Response XML</description>
       <status>FAIL</status>
    </report>
+<report id="1533752986384">
+      <filename>findEntity_processStopConfirm@nonedi.xml</filename>
+      <filedat>08/08/2018 - 11:59:46</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1533753005497">
+      <filename>processScheduleRunRequest@csi_1.xml</filename>
+      <filedat>09/08/2018 - 12:00:05</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1533753015426">
+      <filename>processScheduleRunRequest@csi_1.xml</filename>
+      <filedat>09/08/2018 - 12:00:15</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1533753046309">
+      <filename>findEntity_processStopConfirm@nonedi.xml</filename>
+      <filedat>09/08/2018 - 12:00:46</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
 </reports>

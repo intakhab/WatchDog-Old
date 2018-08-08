@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dogStatusDto>
     <cononicalHostName>LP-5CD809BB4K.HCLT.CORP.HCL.IN</cononicalHostName>
-    <hostAddress>10.117.215.119</hostAddress>
+    <hostAddress>172.20.10.8</hostAddress>
     <hostName>LP-5CD809BB4K</hostName>
     <serverStatus>Running</serverStatus>
     <userName>intakhabalam.s</userName>

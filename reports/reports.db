@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><reports/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reports>
+   <report id="1533709585664">
+      <filename>findEntity_processStopConfirm@nonedi.xml</filename>
+      <filedat>08/08/2018 - 11:56:25</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1533709625140">
+      <filename>processScheduleRunRequest@csi_1.xml</filename>
+      <filedat>08/08/2018 - 11:57:05</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1533709635537">
+      <filename>processScheduleRunRequest@csi_1.xml</filename>
+      <filedat>08/08/2018 - 11:57:15</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+</reports>

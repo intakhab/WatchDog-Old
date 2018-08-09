@@ -48,4 +48,10 @@
       <description>Not found Response XML</description>
       <status>FAIL</status>
    </report>
+<report id="1533795968061">
+      <filename>findEntity_processStopConfirm@nonedi.xml</filename>
+      <filedat>09/08/2018 - 11:56:08</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
 </reports>

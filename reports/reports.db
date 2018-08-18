@@ -60,4 +60,10 @@
       <description>Not found Response XML</description>
       <status>FAIL</status>
    </report>
+<report id="1534588627064">
+      <filename>addEntity@DC.XML</filename>
+      <filedat>18-08-2018_16-07-07</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
 </reports>

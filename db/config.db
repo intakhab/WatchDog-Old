@@ -16,18 +16,20 @@
     <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
     <limitFilesFolder>100</limitFilesFolder>
     <nonEdiCamFileSupports>nonedi</nonEdiCamFileSupports>
+    <nonEdiCamInputFolderPath>c:/dataload/TMAPIBatch/InputNonEdi</nonEdiCamInputFolderPath>
     <nonEdiCamSupportsAPI>findEntity_processStopConfirm@{SystemLoadID=READ_PUT}</nonEdiCamSupportsAPI>
-    <optArchiveFolderPath>c:/dataload/TMAPIBatch/Archive1</optArchiveFolderPath>
-    <optFailureFolderPath>c:/dataload/TMAPIBatch/Failure1</optFailureFolderPath>
+    <nonEdiCamWineFileSupports>wine</nonEdiCamWineFileSupports>
+    <nonEdiCamWineSupportsAPI></nonEdiCamWineSupportsAPI>
     <optFileSupports>csi</optFileSupports>
     <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
-    <optOutputFolderPath>c:/dataload/TMAPIBatch/Output1</optOutputFolderPath>
     <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?}</optSupportsAPI>
     <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
     <responeCodeTag>CompletedSuccessfully</responeCodeTag>
     <responseFilePrefix>Out_</responseFilePrefix>
-    <stopBatchRun>false</stopBatchRun>
-    <stopFileRun>true</stopFileRun>
+    <soaOutputFolderPath>c:/dataload/TMAPIBatch/SOA</soaOutputFolderPath>
+    <stopBatchRun>true</stopBatchRun>
+    <stopFileRun>false</stopFileRun>
+    <stopNonEdiBatchRun>true</stopNonEdiBatchRun>
     <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
     <systemPlanId>00000002</systemPlanId>
     <systemPlanIdText>00000002</systemPlanIdText>

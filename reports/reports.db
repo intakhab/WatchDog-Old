@@ -72,4 +72,52 @@
       <description>Not found Response XML</description>
       <status>FAIL</status>
    </report>
+<report id="1536169369341">
+      <filename>changeEntity@CaM_13.xml</filename>
+      <filedat>05-09-2018_23-12-49</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536169393143">
+      <filename>changeEntity@DC_1.xml</filename>
+      <filedat>05-09-2018_23-13-13</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536169417008">
+      <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+      <filedat>05-09-2018_23-13-37</filedat>
+      <description>Not found Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536311192565">
+      <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+      <filedat>07-09-2018_14-36-32</filedat>
+      <description>Check Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536311297249">
+      <filename>changeEntity@DC.XML</filename>
+      <filedat>07-09-2018_14-38-17</filedat>
+      <description>Passed</description>
+      <status>PASS</status>
+   </report>
+<report id="1536311546917">
+      <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+      <filedat>07-09-2018_14-42-26</filedat>
+      <description>Check Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536311845098">
+      <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+      <filedat>07-09-2018_14-47-25</filedat>
+      <description>Check Response XML</description>
+      <status>FAIL</status>
+   </report>
+<report id="1536312323377">
+      <filename>processShipmentOrderUpdate@SO_69.xml</filename>
+      <filedat>07-09-2018_14-55-23</filedat>
+      <description>Check Response XML</description>
+      <status>FAIL</status>
+   </report>
 </reports>

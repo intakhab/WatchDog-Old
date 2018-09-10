@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+   <user id="1536576893876">
+      <email>admin@gmail.com</email>
+      <username>Intakhab</username>
+      <userpass>admin</userpass>
+      <active>true</active>
+      <createdate>10-09-2018_16-24-53</createdate>
+   </user>
+<user id="1536576932153">
+      <email>ias@gmail.com</email>
+      <username>Soni</username>
+      <userpass>admin</userpass>
+      <active>true</active>
+      <createdate>10-09-2018_16-25-32</createdate>
+   </user>
+</users>

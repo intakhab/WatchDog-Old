@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dogStatusDto>
     <cononicalHostName>LP-5CD809BB4K.HCLT.CORP.HCL.IN</cononicalHostName>
-    <hostAddress>192.168.1.102</hostAddress>
+    <hostAddress>172.20.10.8</hostAddress>
     <hostName>LP-5CD809BB4K</hostName>
-    <pid>72580</pid>
+    <pid>136304</pid>
     <serverStatus>Running</serverStatus>
     <userName>intakhabalam.s</userName>
     <versionId>07092018-V-1.2</versionId>

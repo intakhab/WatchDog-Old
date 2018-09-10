@@ -8,6 +8,8 @@
     <enableArchiveOthersFile>false</enableArchiveOthersFile>
     <enableMail>true</enableMail>
     <enableResponseCodeLog>false</enableResponseCodeLog>
+    <enableShutdownEmail>true</enableShutdownEmail>
+    <enableStartupEmail>true</enableStartupEmail>
     <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
     <fileExtension>xml</fileExtension>
     <fileSupports>cam,dc,so,edi,ssc,shipload</fileSupports>
@@ -32,8 +34,7 @@
     <stopBatchRun>true</stopBatchRun>
     <stopFileRun>false</stopFileRun>
     <stopNonEdiBatchRun>true</stopNonEdiBatchRun>
+    <stopSoBatchRun>false</stopSoBatchRun>
     <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
-    <systemPlanId></systemPlanId>
-    <systemPlanIdText></systemPlanIdText>
     <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
 </DogInfoConfiguration>

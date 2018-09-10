@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DogInfoConfiguration>
+    <archiveFolderPath>c:/dataload/TMAPIBatch/Archive1</archiveFolderPath>
+    <batchFilePath>C:/dataload/TMAPIBatch/BatchFile/process.bat</batchFilePath>
+    <carrierCodeTag>CarrierCode</carrierCodeTag>
+    <dogId>1</dogId>
+    <dogType>FD</dogType>
+    <enableArchiveOthersFile>false</enableArchiveOthersFile>
+    <enableMail>true</enableMail>
+    <enableResponseCodeLog>false</enableResponseCodeLog>
+    <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
+    <fileExtension>xml</fileExtension>
+    <fileSupports>cam,dc,so,edi,ssc,shipload</fileSupports>
+    <fileTypeSeparator>@</fileTypeSeparator>
+    <flag>true</flag>
+    <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <limitFilesFolder>100</limitFilesFolder>
+    <nonEdiCamFileSupports>nonedi</nonEdiCamFileSupports>
+    <nonEdiCamInputFolderPath>c:/dataload/TMAPIBatch/InputNonEdi</nonEdiCamInputFolderPath>
+    <nonEdiCamSupportsAPI>findEntity_processStopConfirm@{SystemLoadID=READ_PUT}</nonEdiCamSupportsAPI>
+    <nonEdiCamWineFileSupports>wine</nonEdiCamWineFileSupports>
+    <nonEdiCamWineSupportsAPI>W1-findEntity_processStopConfirm@{SystemLoadID=READ_PUT}, W2-findEntity_processSetStopToDelivered@{SystemLoadID=READ_PUT|CarrierCode=READ_PUT}</nonEdiCamWineSupportsAPI>
+    <optFileSupports>csi</optFileSupports>
+    <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
+    <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?}</optSupportsAPI>
+    <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
+    <responeCodeTag>CompletedSuccessfully</responeCodeTag>
+    <responseFilePrefix>Out_</responseFilePrefix>
+    <soOrderInputFolderPath>C:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
+    <soOrderSupportsAPI>processSelectForOptimization@{SystemPlanID=PUT},processSendToOptimizer@{}</soOrderSupportsAPI>
+    <soaOutputFolderPath>c:/dataload/TMAPIBatch/SOA</soaOutputFolderPath>
+    <stopBatchRun>true</stopBatchRun>
+    <stopFileRun>false</stopFileRun>
+    <stopNonEdiBatchRun>true</stopNonEdiBatchRun>
+    <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
+    <systemPlanId></systemPlanId>
+    <systemPlanIdText></systemPlanIdText>
+    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+</DogInfoConfiguration>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DogInfoConfiguration>
+    <dogId>1</dogId>
+    <batchFilePath>C:/dataload/TMAPIBatch/BatchFile/process.bat</batchFilePath>
+    <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
+    <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
+    <archiveFolderPath>c:/dataload/TMAPIBatch/Archive1</archiveFolderPath>
+    <carrierCodeTag>CarrierCode</carrierCodeTag>
+    <responeCodeTag>CompletedSuccessfully</responeCodeTag>
+    <fileExtension>xml</fileExtension>
+    <fileTypeSeparator>@</fileTypeSeparator>
+    <responseFilePrefix>Out_</responseFilePrefix>
+    <fileSupports>cam,dc,so,edi,ssc,shipload</fileSupports>
+    <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
+    <dogType>FD</dogType>
+    <optInputFolderPath>c:/dataload/TMAPIBatch/Input1</optInputFolderPath>
+    <soaOutputFolderPath>c:/dataload/TMAPIBatch/SOA</soaOutputFolderPath>
+    <optFileSupports>csi</optFileSupports>
+    <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=?},G2-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APFB|RequestID=?}</optSupportsAPI>
+    <nonEdiCamFileSupports>nonedi</nonEdiCamFileSupports>
+    <nonEdiCamInputFolderPath>c:/dataload/TMAPIBatch/InputNonEdi</nonEdiCamInputFolderPath>
+    <nonEdiCamSupportsAPI>findEntity_processStopConfirm@{SystemLoadID=READ_PUT}</nonEdiCamSupportsAPI>
+    <nonEdiCamWineFileSupports>wine</nonEdiCamWineFileSupports>
+    <nonEdiCamWineSupportsAPI>W1-findEntity_processStopConfirm@{SystemLoadID=READ_PUT}, W2-findEntity_processSetStopToDelivered@{SystemLoadID=READ_PUT|CarrierCode=READ_PUT}</nonEdiCamWineSupportsAPI>
+    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+    <enableArchiveOthersFile>false</enableArchiveOthersFile>
+    <enableResponseCodeLog>false</enableResponseCodeLog>
+    <enableMail>true</enableMail>
+    <flag>true</flag>
+    <stopFileRun>false</stopFileRun>
+    <stopBatchRun>true</stopBatchRun>
+    <stopNonEdiBatchRun>false</stopNonEdiBatchRun>
+    <limitFilesFolder>100</limitFilesFolder>
+    <stopSoBatchRun>false</stopSoBatchRun>
+    <soOrderInputFolderPath>C:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
+    <soOrderSupportsAPI>processSelectForOptimization@{SystemPlanID=PUT},processSendToOptimizer@{}</soOrderSupportsAPI>
+    <enableStartupEmail>true</enableStartupEmail>
+    <enableShutdownEmail>true</enableShutdownEmail>
+    <fbPayFileSupports>fbprocess</fbPayFileSupports>
+    <fbPayInputFolderPath>C:\dataload\TMAPIBatch\FBPay</fbPayInputFolderPath>
+    <fbPaySupportsAPI>processUpdateFBPayStatus@{SystemFreightBillID=READ}</fbPaySupportsAPI>
+    <xcronConfig>
+        <filePollingTime>1</filePollingTime>
+        <finCronTimeG1>00 00 21 * * *</finCronTimeG1>
+        <finCronTimeG2>00 05 21 * * *</finCronTimeG2>
+        <finCronTimeG3>00 20 21 * * *</finCronTimeG3>
+        <finCronTimeG4>00 30 21 * * *</finCronTimeG4>
+        <nonEdiPoollingTimeG1>10</nonEdiPoollingTimeG1>
+        <nonEdiPoollingTimeW1>12</nonEdiPoollingTimeW1>
+        <nonEdiPoollingTimeW2>16</nonEdiPoollingTimeW2>
+        <soCronTimeG1>00 55 18 * * *</soCronTimeG1>
+        <soCronTimeG2>00 45 22 * * *</soCronTimeG2>
+    </xcronConfig>
+    <xmailConfig>
+        <debugMail>false</debugMail>
+        <fromMail>irin.irani@gmail.com</fromMail>
+        <host>smtp.gmail.com</host>
+        <password>irinirania</password>
+        <port>587</port>
+        <username>irin.irani@gmail.com</username>
+    </xmailConfig>
+</DogInfoConfiguration>

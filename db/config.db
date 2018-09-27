@@ -48,7 +48,7 @@
         <finCronTimeG4>00 59 13 * * *</finCronTimeG4>
         <nonEdiPoollingTimeG1>10</nonEdiPoollingTimeG1>
         <nonEdiPoollingTimeW1>12</nonEdiPoollingTimeW1>
-        <nonEdiPoollingTimeW2>16</nonEdiPoollingTimeW2>
+        <nonEdiPoollingTimeW2>14</nonEdiPoollingTimeW2>
         <soCronTimeG1>00 10 15 * * *</soCronTimeG1>
         <soCronTimeG2>00 15 15 * * *</soCronTimeG2>
     </xcronConfig>
@@ -60,4 +60,6 @@
         <port>587</port>
         <username>irin.irani@gmail.com</username>
     </xmailConfig>
+    <autoPilot>false</autoPilot>
+    <autoPilotCron>00 00 05 * * *</autoPilotCron>
 </DogInfoConfiguration>

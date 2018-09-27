@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DogInfoConfiguration>
+    <dogId>1</dogId>
+    <batchFilePath>c:/dataload/TMAPIBatch/BatchFile/process.bat</batchFilePath>
+    <inputFolderPath>c:/dataload/TMAPIBatch/Input1</inputFolderPath>
+    <outputFolderPath>c:/dataload/TMAPIBatch/Output1</outputFolderPath>
+    <failureFolderPath>c:/dataload/TMAPIBatch/Failure1</failureFolderPath>
+    <archiveFolderPath>c:/dataload/TMAPIBatch/Archive1</archiveFolderPath>
+    <carrierCodeTag>CarrierCode</carrierCodeTag>
+    <responeCodeTag>CompletedSuccessfully</responeCodeTag>
+    <fileExtension>xml</fileExtension>
+    <fileTypeSeparator>@</fileTypeSeparator>
+    <responseFilePrefix>Out_</responseFilePrefix>
+    <fileSupports>cam,dc,so,edi,ssc,shipload,fbpay,fbprocess</fileSupports>
+    <supportsAPI>cam=changeEntity,dc=changeEntity,so=processShipmentOrderUpdate</supportsAPI>
+    <dogType>FD</dogType>
+    <optInputFolderPath>c:/dataload/TMAPIBatch/Fin</optInputFolderPath>
+    <soaOutputFolderPath>c:/dataload/TMAPIBatch/SOA</soaOutputFolderPath>
+    <optFileSupports>csi</optFileSupports>
+    <optSupportsAPI>G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APVCHR|RequestID=AUTO_NUM},G1-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APACCR|RequestID=AUTO_NUM},G2-processGLTransactionRetrieve@{GLTransactionTypeEnumVal=GLTT_ACCRUAL|GLClassificationEnumVal=BLANK|GLClassificationEnumVal=BLANK},G3-processScheduleRunRequest@{ScheduleRunTypeEnumVal=SRT_APTRNC|RequestID=AUTO_NUM},G4-processGLTransactionRetrieve@{GLTransactionTypeEnumVal=GLTT_ACCRUAL_REVERSED|GLClassificationEnumVal=BLANK|GLClassificationEnumVal=BLANK}</optSupportsAPI>
+    <nonEdiCamFileSupports>nonedi</nonEdiCamFileSupports>
+    <nonEdiCamInputFolderPath>c:/dataload/TMAPIBatch/InputNonEdi</nonEdiCamInputFolderPath>
+    <nonEdiCamSupportsAPI>G1-findEntities_processSetStopToDelivered@{SystemLoadID=READ_PUT|CarrierCode=READ_PUT}</nonEdiCamSupportsAPI>
+    <nonEdiCamWineFileSupports>wine</nonEdiCamWineFileSupports>
+    <nonEdiCamWineSupportsAPI>W1-findEntities_processStopConfirm@{SystemLoadID=READ_PUT},W2-findEntities_processSetStopToDelivered@{SystemLoadID=READ_PUT|CarrierCode=READ_PUT}</nonEdiCamWineSupportsAPI>
+    <toWhomEmail>intakhabalam.s@hcl.com</toWhomEmail>
+    <enableArchiveOthersFile>false</enableArchiveOthersFile>
+    <enableResponseCodeLog>false</enableResponseCodeLog>
+    <enableMail>true</enableMail>
+    <flag>true</flag>
+    <stopFileRun>false</stopFileRun>
+    <stopBatchRun>false</stopBatchRun>
+    <stopNonEdiBatchRun>false</stopNonEdiBatchRun>
+    <limitFilesFolder>100</limitFilesFolder>
+    <stopSoBatchRun>false</stopSoBatchRun>
+    <soOrderInputFolderPath>C:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
+    <soOrderSupportsAPI>G1-processSelectForOptimization@{SystemPlanID=PUT},G2-processSendToOptimizer@{SystemPlanID=PUT}</soOrderSupportsAPI>
+    <enableStartupEmail>false</enableStartupEmail>
+    <enableShutdownEmail>false</enableShutdownEmail>
+    <fbPayFileSupports>fbprocess</fbPayFileSupports>
+    <fbPayInputFolderPath>C:\dataload\TMAPIBatch\FBPay</fbPayInputFolderPath>
+    <fbPaySupportsAPI>processUpdateFBPayStatus@{SystemFreightBillID=READ},findEntities@{SystemFreightBillID=PUT}</fbPaySupportsAPI>
+    <xcronConfig>
+        <filePollingTime>1</filePollingTime>
+        <finCronTimeG1>00 34 19 * * *</finCronTimeG1>
+        <finCronTimeG2>00 57 23 * * *</finCronTimeG2>
+        <finCronTimeG3>00 58 23 * * *</finCronTimeG3>
+        <finCronTimeG4>00 59 13 * * *</finCronTimeG4>
+        <nonEdiPoollingTimeG1>10</nonEdiPoollingTimeG1>
+        <nonEdiPoollingTimeW1>12</nonEdiPoollingTimeW1>
+        <nonEdiPoollingTimeW2>16</nonEdiPoollingTimeW2>
+        <soCronTimeG1>00 10 15 * * *</soCronTimeG1>
+        <soCronTimeG2>00 15 15 * * *</soCronTimeG2>
+    </xcronConfig>
+    <xmailConfig>
+        <debugMail>false</debugMail>
+        <fromMail>WatchDog</fromMail>
+        <host>smtp.gmail.com</host>
+        <password>irinirania</password>
+        <port>587</port>
+        <username>irin.irani@gmail.com</username>
+    </xmailConfig>
+</DogInfoConfiguration>

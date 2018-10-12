@@ -33,12 +33,12 @@
     <stopNonEdiBatchRun>false</stopNonEdiBatchRun>
     <limitFilesFolder>100</limitFilesFolder>
     <stopSoBatchRun>false</stopSoBatchRun>
-    <soOrderInputFolderPath>C:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
+    <soOrderInputFolderPath>c:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
     <soOrderSupportsAPI>G1-processSelectForOptimization@{SystemPlanID=PUT},G2-processSendToOptimizer@{SystemPlanID=PUT}</soOrderSupportsAPI>
     <enableStartupEmail>false</enableStartupEmail>
     <enableShutdownEmail>false</enableShutdownEmail>
     <fbPayFileSupports>fbprocess</fbPayFileSupports>
-    <fbPayInputFolderPath>C:\dataload\TMAPIBatch\FBPay</fbPayInputFolderPath>
+    <fbPayInputFolderPath>c:/dataload/TMAPIBatch/FBPay</fbPayInputFolderPath>
     <fbPaySupportsAPI>processUpdateFBPayStatus@{SystemFreightBillID=READ},findEntities@{SystemFreightBillID=PUT}</fbPaySupportsAPI>
     <xcronConfig>
         <filePollingTime>1</filePollingTime>
@@ -56,7 +56,7 @@
         <debugMail>false</debugMail>
         <fromMail>WatchDog</fromMail>
         <host>smtp.gmail.com</host>
-        <password>irinirania</password>
+        <password></password>
         <port>587</port>
         <username>irin.irani@gmail.com</username>
     </xmailConfig>

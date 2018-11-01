@@ -1,9 +1,0 @@
-com.app
-com.app.filedog.common
-com.app.filedog.component
-com.app.filedog.config
-com.app.filedog.controller
-com.app.filedog.domain
-com.app.filedog.dto
-com.app.filedog.filter
-com.app.filedog.service

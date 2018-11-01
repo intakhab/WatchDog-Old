@@ -51,6 +51,7 @@
         <nonEdiPoollingTimeW2>14</nonEdiPoollingTimeW2>
         <soCronTimeG1>00 10 15 * * *</soCronTimeG1>
         <soCronTimeG2>00 15 15 * * *</soCronTimeG2>
+        <bulkPoollingTimeG1>00 37 21 * * *</bulkPoollingTimeG1>
     </xcronConfig>
     <xmailConfig>
         <debugMail>false</debugMail>

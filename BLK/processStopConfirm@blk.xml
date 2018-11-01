@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO_8859-1" standalone="no"?>
+<CISDocument>
+<ApiHeader>
+<OperationName>processStopConfirm</OperationName>
+</ApiHeader>
+<StopConfirmData>
+<SystemLoadID>3400</SystemLoadID>
+<StopSequenceNumber>1</StopSequenceNumber>
+<PrintMasterBillOfLadingFlag>False</PrintMasterBillOfLadingFlag>
+<SECInformation>
+<SECCode>DRVRCHKIN_</SECCode>
+<MovementDateTime/>
+</SECInformation>
+</StopConfirmData>
+</CISDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CISDocument>
+  <ApiHeader>
+    <OperationName></OperationName>
+    <ClientID></ClientID>
+  </ApiHeader>
+  <EntityType>LoadType</EntityType>
+  <Select>
+	<Name>SystemLoadID</Name>
+  </Select>
+    <Filter>
+	<Name>CurrentLoadOperationalStatusEnumVal</Name>
+	<Op>In</Op>
+	<Value>S_TENDER_ACCEPTED</Value>
+  </Filter>
+  <Filter>
+	<Name>CommodityCode</Name>
+	<Op>In</Op>
+	<Value>BLK</Value>
+	  </Filter>
+  <Page>
+	<StartAtRow>0</StartAtRow>
+    <MaxRows>1000</MaxRows>
+  </Page>
+</CISDocument>

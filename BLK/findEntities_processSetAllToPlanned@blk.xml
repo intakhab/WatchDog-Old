@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CISDocument>
+  <ApiHeader>
+    <OperationName></OperationName>
+    <ClientID></ClientID>
+  </ApiHeader>
+  <EntityType>LoadType</EntityType>
+  <Select>
+	<Name>SystemPlanID</Name>
+  </Select>
+  <Filter>
+	<Name>CommodityCode</Name>
+	<Op>Eq</Op>
+	<Value>BLK</Value>
+	  </Filter>
+  <Page>
+	<StartAtRow>0</StartAtRow>
+    <MaxRows>1000</MaxRows>
+  </Page>
+</CISDocument>
